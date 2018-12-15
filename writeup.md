@@ -100,3 +100,15 @@ I made a program to capture the screenshots from the video. The program was not 
 1. Limit the slope of the most fitted line to a certain range so that it won't be close to horizontal or vertical.
 
 2. Optimize the pipeline to improve speed performance. It can be reducing the number of steps, using faster method to process numpy array etc.
+
+More possible improvements suggested by reviews:
+
+3. Image from infrared camera.
+
+4. Adding a outlier reduction approach like RANSAC on the hough lines. (already used)
+
+5. Using curve fitting to plot the curve instead of straight lines.
+
+[RANSAC.pdf](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/50281/1544280056/RANSAC.pdf)
+
+[curve.pdf](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/50281/1544280080/curve.pdf)
